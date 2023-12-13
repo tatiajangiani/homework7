@@ -20,7 +20,7 @@ header {
     top: 0;
 }
 
-ul {
+.ul_section {
     display: flex;
     column-gap: 48px;
 }
@@ -69,9 +69,7 @@ ul {
     text-shadow: 0px 6px 4px #372D23;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 56px;
     margin-bottom: 32px;
 
 }
@@ -84,13 +82,12 @@ ul {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 28px;
     background-color: transparent;
 
 }
-.button_section:hover{
+
+.button_section:hover {
     cursor: pointer;
     box-shadow: 0 0 20px yellow;
 
@@ -104,12 +101,15 @@ ul {
     justify-content: center;
     column-gap: 40px;
     margin-top: 80px;
+   
+    
 }
 
 .card {
     width: 400px;
     height: 320px;
     position: relative;
+
 
 }
 
@@ -153,7 +153,7 @@ ul {
     width: 1060px;
     height: 264px;
     margin: auto;
-   
+
 }
 
 .article_title {
@@ -178,17 +178,60 @@ ul {
 
 }
 
-.article_button {background: #ED6C30;
+.article_button {
+    background: #ED6C30;
     color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: 28px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
     padding: 12px 40px;
-   margin-inline: 419px;
+    margin-inline: 419px;
 }
 
-.article_button:hover{
-  cursor: pointer;
-  box-shadow: 0 0 25px  orange;}
+.article_button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 25px orange;
+}
+
+
+/* footer */
+footer {
+    background: #372D23;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 300px;
+    margin-top: 80px;
+    align-items: start;
+}
+
+.footer_title {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.ul_text{
+    color: #B89278;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+}
+.social_items{
+    display: flex;
+    column-gap: 16px;
+    margin-top: 16px;
+}
+    
+
+.fa-instagram, .fa-linkedin, .fa-facebook-f, .fa-tiktok{
+    font-size: 24px;
+    color: #FCC21B;
+}
