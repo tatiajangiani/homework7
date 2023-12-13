@@ -43,7 +43,7 @@ ul {
     color: #FCC21B
 }
  /* section */
- section {
+ .section1 {
     height: 640px;
     position: relative
 }
